@@ -83,6 +83,7 @@ function respostaSelecionada(opcaoSelecionada) {
     mostraPergunta();
 }
 
+
 function mostraResultado() {
     caixaPerguntas.textContent = "Você concluiu o quiz!";
     textoResultado.textContent = historiaFinal;
