@@ -23,7 +23,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual série nos mais assistir juntas e amamos?",
+        enunciado: "Qual série nos mais amamos assistir juntas?",
         alternativas: [
             {
                 texto: "The Big Bang Theory.",
