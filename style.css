@@ -1,0 +1,63 @@
+:root{
+    --cor-fundo: #c273d3de;
+    --cor-principal: #922ddf ;
+    --cor-secundaria: #24033b;
+    --cor-destaque: #400337dd;
+    --cor-texto: #e7f0f2;
+}
+
+body{
+    background:url(girassol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+    font-size: 35px;
+}
+
+.caixa-perguntas{
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+
+.caixa-resultado {
+    text-align: center; /* Centraliza o conteúdo dentro da caixa de resultado */
+}
+
+#botao-casamento {
+    margin-top: 20px; /* Espaço entre o texto final e o botão */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: none; /* Inicialmente escondido */
+    text-align: center;
+}
